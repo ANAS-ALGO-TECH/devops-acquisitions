@@ -1,0 +1,2 @@
+{"level":"info","message":"Hello from Acquisitions!","service":"devops-acquisitions-service"}
+{"level":"info","message":"::1 - - [05/Jul/2026:18:08:07 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cursor/3.9.16 Chrome/144.0.7559.236 Electron/40.10.3 Safari/537.36\"","service":"devops-acquisitions-service"}

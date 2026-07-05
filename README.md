@@ -15,3 +15,13 @@
 
 # now after creating users table, the way it works in postgress databases and drizzle is that now we have to generate sql schemas using drizzle -> "npm run db:generate" (we will get new sql migration file right under the drizzle folder)
 # after that we have migrate and push changes to neon database -> "npm run db:migrate"
+
+# for logging we are going to use super popular library "winstonjs" that has over 24000 stars on github; and it can log about anything (info, errors, debugging and more)
+# install it -> npm i winston
+# after installing winston now create a file "logger.js" in config folder and set up the winston configurations
+
+# set the absolute paths for files -> write imports in package.json file for all the folders
+# install these as well -> npm i morgan helmet cors cookie-parser
+
+# after updating package.json file, and installing all the packages; now update the app.js file (import all the middlewares)
+
