@@ -1,6 +1,7 @@
 # set up the nod eapplication
 
 # npm i eslint @eslint/js prettier eslint-config-prettier eslint-plugin-prettier -D => for setting up EsLint Prettier
+# ->  npm install -D eslint@9 @eslint/js@9 eslint-config-prettier@9
 
 # add 3 files; eslint.config.js, .prettierrc, .prettierignore
 
@@ -24,4 +25,15 @@
 # install these as well -> npm i morgan helmet cors cookie-parser
 
 # after updating package.json file, and installing all the packages; now update the app.js file (import all the middlewares)
+
+# Now work on the authentication -> make routes, controllers
+# install httpie -> HTTP client for request
+# install jsonwebtoken, bcrypt -> now working on user authentication; create helper for jwttoken
+# create helper for cookies
+# install zod -> for TS schema validations -> npm in zod
+# write auth schema validations using zod -> in validations folder
+# write formatted error validations -> in utils in validations file
+# now write proper auth controller (SignUp controller)
+# write services for auth controller (hash passwords, create user etc.)
+
 

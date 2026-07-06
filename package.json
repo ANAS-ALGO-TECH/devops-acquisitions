@@ -11,8 +11,9 @@
     "#utils/*": "./src/utils/*",
     "#middlewares/*": "./src/middlewares/*",
     "#services/*": "./src/services/*",
-    "#validators/*": "./src/validators/*",
-    "#controllers/*": "./src/controllers/*"
+    "#validations/*": "./src/validations/*",
+    "#controllers/*": "./src/controllers/*",
+    "#constants/*": "./src/constants/*"
   },
   "scripts": {
     "dev": "node --watch src/index.js",
@@ -29,20 +30,23 @@
   "license": "ISC",
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
+    "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "drizzle-orm": "^0.45.2",
     "express": "^5.2.1",
     "helmet": "^8.2.0",
+    "jsonwebtoken": "^9.0.3",
     "morgan": "^1.11.0",
-    "winston": "^3.19.0"
+    "winston": "^3.19.0",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
+    "@eslint/js": "^9.39.4",
     "drizzle-kit": "^0.31.10",
-    "eslint": "^10.6.0",
-    "eslint-config-prettier": "^10.1.8",
+    "eslint": "^9.39.4",
+    "eslint-config-prettier": "^9.1.2",
     "eslint-plugin-prettier": "^5.5.6",
     "prettier": "^3.9.4"
   }
